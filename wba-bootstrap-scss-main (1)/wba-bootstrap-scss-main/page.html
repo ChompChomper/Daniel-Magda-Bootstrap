@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- Your custom compiled SCSS/CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+  
+    <title>Bootstrap SCSS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand fs-1 fw-bold" href="#">Homemade Pottery</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fs-3 fw-semibold" href="buy.html">Buy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-3 fw-semibold" href="page.html">Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Text and Images Section -->
+    <div class="container text-center mt-5">
+        <div class="row mb-4">
+            <div class="col fs-3 fw-normal">
+                10 years of experience
+            </div>
+            <div class="col fs-3 fw-normal">
+                Made with love
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col">
+                <img src="/media/Resize Stories (1).png" class="img-fluid card-img-top" alt="Story 1">
+            </div>
+            <div class="col">
+                <img src="/media/Resize Stories (2).png" class="img-fluid card-img-top" alt="Story 2">
+            </div>
+            <div class="col">
+                <img src="/media/Resize Stories.png" class="img-fluid card-img-top" alt="Story 3">
+            </div>
+        </div>
+    </div>
+
+    <!-- Form Section -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label fs-5 fw-light">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputFeedback1" class="form-label fs-5 fw-light">Feedback</label>
+                        <textarea class="form-control" id="exampleInputFeedback1" rows="3"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary w-100 fs-5 fw-light">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

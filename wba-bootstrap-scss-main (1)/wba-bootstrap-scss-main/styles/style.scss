@@ -1,0 +1,38 @@
+$primary: rgb(150, 10, 150);
+$secondary: #cffcf1;
+$success: #2d42ff;
+$light: rgb(239, 209, 239);
+$warning: #ff6f61;
+$font-family-base: 'Montserrat', sans-serif;
+
+$border-radius: 0rem;
+
+/* Custom hover effect for buttons */
+.btn-primary {
+    border: none;
+    transition: all 0.3s ease; 
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+  }
+
+/* Apply zoom and shadow effect to all images */
+img {
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: skew(1deg, 1deg);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+@import "../bootstrap/scss/bootstrap.scss";
